@@ -151,7 +151,6 @@ struct inflate_state {
 #endif
 };
 
-int Z_INTERNAL PREFIX(inflate_ensure_window)(struct inflate_state *state);
 void Z_INTERNAL PREFIX(fixedtables)(struct inflate_state *state);
 Z_INTERNAL inflate_allocs* alloc_inflate(PREFIX3(stream) *strm);
 Z_INTERNAL void free_inflate(PREFIX3(stream) *strm);
